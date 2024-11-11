@@ -31,6 +31,7 @@ function updateWeather(data) {
     document.querySelector(".sunrise").innerHTML = sunriseTime;
     document.querySelector(".sunset").innerHTML = sunsetTime;
 
+
     switch (data.weather[0].main) {
         case "Clouds":
             weatherIcon.src = "assests/clouds.png";
